@@ -1,0 +1,23 @@
+.logo {
+    max-width: 15%;
+    height: 150px;
+    display:block;
+    margin: auto;
+}
+h1{
+    color: #cf3ef3;
+}
+.inputdiv{
+    color: #cf3ef3;
+    margin-left: 400px;
+    padding: 20px;
+
+}
+.btn {
+    background: #cf3ef3;
+    border: none;
+    width: 100px;
+}
+.btn:hover {
+    background: #d63384;
+}

@@ -1,0 +1,31 @@
+.body {
+    background-color: #FDE6FF;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh; 
+  
+  }
+.logo {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    margin: 20px;
+  }
+  
+  .listItem {
+    padding-left: 60px;
+    padding-top: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #cf3ef3;
+  }
+  
+  .navDiv {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update {
+    background-color: #cf3ef3;
+    color: white;
+  }

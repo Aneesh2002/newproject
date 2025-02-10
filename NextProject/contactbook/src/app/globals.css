@@ -1,0 +1,57 @@
+/* Root Variables */
+:root {
+  --background-color: #FDE6FF;
+  --font-family: 'Times New Roman', Times, serif;
+}
+
+/* Apply global styles */
+html, body {
+  height: 100%; /* Ensure full height */
+  width: 100%; /* Ensure full width */
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color); /* Use the background color */
+  font-family: var(--font-family); /* Set font family */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Default box model */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Anchor tags */
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color */
+}
+
+/* List items */
+li {
+  list-style: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+/* Images */
+img {
+  max-width: 100%; /* Responsive images */
+  height: auto;
+}
+
+/* Button Reset */
+button {
+  font-family: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Input Reset */
+input, textarea {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
